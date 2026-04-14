@@ -166,6 +166,21 @@ export default function Character() {
           </div>
         </section>
 
+        {/* Behavioral Analysis */}
+        <section className="mt-16 space-y-4">
+          <h2 className={`font-serif text-2xl border-l-4 pl-3 transition-colors duration-300 ${isDark ? 'border-[#8B0000] text-[#8B0000]' : 'border-red-800 text-red-900'}`}>
+            행동 패턴 분석 (Behavioral Analysis)
+          </h2>
+          <div className={`p-2 rounded border transition-colors duration-300 ${isDark ? 'bg-black border-[#8B0000]/50' : 'bg-red-50 border-red-200'} shadow-md`}>
+            <img 
+              src="https://gbe88.uk/1/oot_lapsrn_x2.webp" 
+              alt="여캐플과 남캐플 때 이루의 행동 차이 분석" 
+              className="w-full h-auto object-contain rounded"
+              referrerPolicy="no-referrer"
+            />
+          </div>
+        </section>
+
       </div>
     </motion.div>
   );

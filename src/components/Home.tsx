@@ -13,7 +13,7 @@ export default function Home() {
       <section className="relative w-full h-[60vh] min-h-[400px]">
         <div className="absolute inset-0 bg-black/60 z-10" />
         <img
-          src="https://picsum.photos/seed/darkmansion/1080/1920?blur=2"
+          src="https://gbe88.uk/1/112_lapsrn_x2.webp"
           alt="어둡고 정적인 저택 내부"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -23,9 +23,9 @@ export default function Home() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
-            className="font-serif text-4xl md:text-5xl font-bold text-white mb-6 tracking-widest drop-shadow-lg"
+            className="font-serif text-4xl md:text-5xl font-bold text-white mb-6 tracking-widest drop-shadow-lg leading-snug"
           >
-            안아주고 예뻐해줘
+            안아주고<br />예뻐해줘
           </motion.h1>
           <motion.p
             initial={{ y: 20, opacity: 0 }}
