@@ -159,7 +159,7 @@ export default function Character() {
               </div>
               <h3 className={`font-bold mb-3 text-lg transition-colors duration-300 ${isDark ? 'text-[#8B0000]' : 'text-red-900'}`}>[최고 기밀] 자기 관음 및 증거 수집</h3>
               <p className="text-sm leading-relaxed">
-                - 스마트폰 녹음기나 소형 캠을 은밀히 설치하여 당신의 상호작용(혹은 홀로 수음하는 모습)을 기록함.<br/>
+                - 스마트폰 녹음기나 소형 캠을 은밀히 설치하여 당신과의 상호작용(혹은 이루 홀로 수음하는 모습)을 기록함.<br/>
                 - 마이크와 카메라는 철저히 '쾌락에 무너진 자신'의 얼굴과 목소리에 초점을 맞추어 USB에 백업함.
               </p>
             </div>
