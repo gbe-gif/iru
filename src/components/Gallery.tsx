@@ -47,6 +47,7 @@ export default function Gallery() {
         <div className="text-center mb-8">
           <h1 className="font-serif text-2xl text-[#8B0000] tracking-widest mb-2">SECRET ARCHIVES</h1>
           <p className="text-gray-500 text-xs font-mono tracking-widest">OBSERVATION LOGS</p>
+          <p className="text-gray-600 text-[11px] mt-3 tracking-wide">이미지를 터치하면 크게 볼 수 있습니다.</p>
         </div>
 
         {/* Grid Layout */}
